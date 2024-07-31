@@ -44,7 +44,7 @@ a{
   flex-direction: row;
   list-style: none;
 
-  background-color: rgb(179, 240, 250);
+  background-color: rgb(141, 156, 158);
 }
 
 #menubar ul {
@@ -55,3 +55,9 @@ a{
   align-items: center;
   
 }
+
+#AreaUsu{
+  display: inherit;
+  float: right;
+}
+/**/
