@@ -35,15 +35,11 @@
   color: #888;
 }
 
-a{
-  padding: 3vh;
-  cursor: pointer;
-}
 #menubar{
   display: flex;
   flex-direction: row;
   list-style: none;
-
+  color: black;
   background-color: rgb(141, 156, 158);
 }
 
@@ -56,8 +52,16 @@ a{
   
 }
 
+#menubar li a{
+  display: block;
+  margin-left: 3vh;
+  cursor: pointer;
+}
+
+
+/*arrumar aqui dps pra deixar mais responsivo*/
 #AreaUsu{
   display: inherit;
-  float: right;
+  margin-left: 127vh;
 }
-/**/
+/*--------*/

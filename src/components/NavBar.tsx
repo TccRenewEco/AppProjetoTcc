@@ -17,9 +17,9 @@ export function TopMenu(){
            
              {/*Arrumar uma forma de deixar a Nav editavel com atributos*/}
                <div id="AreaUsu">
-                <li><a href="">notificação</a></li>
-                <li><a href="">Log-in</a></li>
-                <li><a href="">Cadastro</a></li>
+                <li> <a onClick={()=>{NaviM()}}>notificação</a></li>
+                <li><a onClick={()=>{NaviM()}>Log-in</a></li>
+                <li><a onClick={()=>{NaviM()}>Cadastro</a></li>
                </div>
              </ul>
          </div>
