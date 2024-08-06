@@ -1,7 +1,7 @@
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: max-content;
+  width: 10%;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -36,7 +36,8 @@
 }
 
 a{
-  padding: 3vh;
+  color: black;
+  padding: 1vh;
   cursor: pointer;
 }
 #menubar{
@@ -59,9 +60,7 @@ label{
   width: 80%;
   
 }
-#menubar li {
- 
-}
+
 
 #menubar li a{
  color: rgb(99, 99, 99);
@@ -71,6 +70,20 @@ label{
  }
 #menubar img{
  padding: 5px;
- max-width: 60px ;
- max-height: 60px ;
+ height: 60px;
+}
+
+
+#LogoTipo{
+ background-color: rgb(255, 174, 0);
+ display: inherit;
+ max-height: inherit;
+ padding: 6px;
+ border-radius: 8px;
+}
+#LogoTipo p{
+   font-size: 15pt ;
+ font-weight: lighter;
+ padding-left: 2.5vh;
+ padding-right: 2.5vh;
 }

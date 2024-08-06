@@ -8,7 +8,11 @@ function App() {
     <>
          <TopMenu/>
        <body>
-         
+         <section id='Fullscreen'>
+           <article>
+             <h1>RenewEco</h1>
+           </article>
+         </section>
        </body>
 
        <footer>
