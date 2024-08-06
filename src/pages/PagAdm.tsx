@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 
-export function Testpa2(){
+export function PagAdm(){
 
     const navi = useNavigate()
 
