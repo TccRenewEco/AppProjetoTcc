@@ -1,5 +1,4 @@
 
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -44,20 +43,34 @@ a{
   display: flex;
   flex-direction: row;
   list-style: none;
-  position: sticky;  
-  background-color: rgb(179, 240, 250);
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  max-height: fit-content;
+}
+label{
+  float: left;
 }
 
-#menubar ul {
+ ul {
   padding: 0;
+  flex-direction: row-reverse;
   display: inherit;
-  flex-direction: row;
   list-style: none;
-  align-items: center;
+  width: 80%;
   
 }
+#menubar li {
+ 
+}
 
+#menubar li a{
+ color: rgb(99, 99, 99);
+}
+#menubar li a:hover{
+  color: rgb(255, 167, 35);
+ }
 #menubar img{
-  max-height: 60px;
-  max-width: 60px;
+ padding: 5px;
+ max-width: 60px ;
+ max-height: 60px ;
 }

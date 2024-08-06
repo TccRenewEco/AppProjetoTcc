@@ -6,12 +6,9 @@ function App() {
 
   return (
     <>
-      <header>
          <TopMenu/>
-          
-       </header>
        <body>
-        
+         
        </body>
 
        <footer>
