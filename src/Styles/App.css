@@ -67,6 +67,7 @@ body {
   color: #888;
 }
 
+
 a{
   color: black;
   padding: 1vh;
@@ -79,6 +80,8 @@ a{
   background-color: rgb(255, 255, 255);
   align-items: center;
   max-height: fit-content;
+  border-bottom:2px solid rgb(230, 230, 230) ;
+  
 }
 label{
   float: left;
@@ -89,7 +92,8 @@ label{
   flex-direction: row-reverse;
   display: inherit;
   list-style: none;
-  width: 80%;
+  margin: 0px 10px 0px 10px;
+  width: 70%;
   
 }
 
