@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import logoProto from './../assets/LogoProto.svg'
-import './../App.css'
+import './../Styles/App.css'
 //primeira versão da navbar
 
 

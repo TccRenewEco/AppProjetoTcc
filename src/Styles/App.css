@@ -1,4 +1,36 @@
 
+/*Parte da homepage*/
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; 
+}
+
+#Fullscreen {
+  background-image: url(/src/assets/ReciClagi.jpg); 
+  border:rgb(236, 162, 0) 1.5vh double ;
+  display: inherit;
+  padding: 8vh;
+  margin: 3vh;
+  border-radius: 8px;
+  text-align: center;
+}
+#Fullscreen article {
+  background-color: #ffffff; 
+  padding: 2vh;
+  border-radius: 8px;
+  color: #ff8801;
+}
+#Fullscreen h1{
+  font-size: 48pt;
+  font:lighter;
+  font-family: Impact;
+  text-shadow: #e96b00 2px;
+
+}
+/*Parte da homepage*/
+
 .logo {
   height: max-content;
   width: 10%;
