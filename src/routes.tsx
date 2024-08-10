@@ -4,6 +4,7 @@ import { PagAdm } from "./pages/PagAdm";
 import { PagUsu } from "./pages/PagUsuario";
 import App from "./App";
 import { PagLog } from "./pages/PagLogin";
+import { PagCad } from "./pages/PagCadastro";
 
 export function RotaMestre(){
     return(
@@ -14,6 +15,8 @@ export function RotaMestre(){
             <Route path="/pagUsu" element={<PagUsu/>}></Route>
             <Route path="/pagAdm" element={<PagAdm/>}></Route>
             <Route path="/Paglog" element={<PagLog/>}></Route>
+            <Route path="/PagCad" element={<PagCad/>}></Route>
+             
          </Routes>
        </BrowserRouter> 
     )

@@ -6,7 +6,7 @@ export function PagAdm(){
 
     return(
         <div>
-            <h1>testado?</h1>
+            <h1>Administrador vai vir pra ca quando logar</h1>
             <button onClick={()=>{navi('/')}}>Voltar</button>
         </div>
     )
