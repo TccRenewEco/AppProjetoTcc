@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    margin-top: -14px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    height: 8vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#nav-list{
+    list-style: none;
+    display: flex;
+}
+#nav-list li{
+    letter-spacing: 3px;
+    margin-left: 4px;
+}
+#nav-list li button{
+    letter-spacing: 0.3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#log button{
+    margin-left: 10px;
+}
+
+#mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+#mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: black;
+    margin: 8px;
+    transition: all ease .2s;
+
+}
+#menu-faketrigger{
+    display: none;
+}
+header button{
+    background-color: white;
+    border-style: none;
+    height: 25px;
+    font-weight: 600;
+}
+header button:hover{
+    border-bottom: 3px solid #ed7e00;
+    color: #ed7e00;
+    height: 25px;
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#nav-list button{
+    width: 70px;
+}
+
+@media (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    #nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background: blanchedalmond;
+        transform: translateX(100%);
+    }
+    #nav-list li{
+        margin-left: 0;
+        opacity: 0;
+    }
+    #log{
+        display: none;
+    }
+    #mobile-menu{
+        display: block;
+    }
+    #menu-faketrigger{
+        position: absolute;
+        display: block;
+        margin-left: 50.2vw;
+        height: 30px;
+        width: 30px;
+        opacity: 0;
+        cursor: pointer;
+    }
+}
+#menu-faketrigger:checked ~ #mobile-menu div{
+    background-color: #ed7e00;
+}
+
+#menu-faketrigger:checked ~ #mobile-menu div:nth-child(1) {
+    transform-origin: 0% 0%;
+    transform: rotate(45deg);
+}
+#menu-faketrigger:checked ~ #mobile-menu div:nth-child(2) {
+    opacity: 0;
+}
+#menu-faketrigger:checked ~ #mobile-menu div:nth-child(3) {
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg);
+}
+
+
+img{
+    padding: 5px;
+    height: 60px;
+   }

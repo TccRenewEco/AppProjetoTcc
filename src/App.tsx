@@ -1,5 +1,5 @@
 import './Styles/App.css'
-import { TopMenu } from './components/NavBar'
+import { TopMenu, Header } from './components/NavBar'
 
 /*homepage tecnicamente*/
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-         <TopMenu/>
+        <Header></Header>
          <section id='Fullscreen'>
            <article>
              <h1>RenewEco</h1>

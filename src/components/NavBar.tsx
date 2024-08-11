@@ -1,11 +1,14 @@
 import { useNavigate } from "react-router-dom"
 import logoProto from './../assets/LogoProto.svg'
 import './../Styles/App.css'
+import './../Styles/style.css'
+
 //primeira versão da navbar
 
 
+//Navbar de Debug 
 export function TopMenu(){
-   const NaviM = useNavigate()
+      const NaviM = useNavigate();
     return(
         <header>       
         <div id="menubar">
@@ -31,3 +34,37 @@ export function TopMenu(){
     )
 
 }
+
+//Header que vai aparecer pra todo mundo
+export function Header() {
+
+    return (
+      <>
+      <body>
+        <header>
+          <nav>
+          <img src={logoProto}/>
+          <input type='checkbox' id='menu-faketrigger'></input>
+          <div id='mobile-menu'>
+              <div id='line1'></div>
+              <div id='line2'></div>
+              <div id='line3'></div>
+          </div>
+          <ul id='nav-list'>
+              <li><button>Home</button></li>
+              <li><button>Soluções</button></li>
+              <li><button>Sobre</button></li>
+              <li><button>Contato</button></li>
+          </ul>
+          <div id='log'>
+              <button id='Entrar'>Entrar</button>
+              <button>Registrar</button>
+          </div>
+          </nav>
+        </header>
+        <script src=''></script>
+      </body>
+      </>
+    )
+  }
+  
