@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-        <Header></Header>
+       <Header/>
          <section id='Fullscreen'>
            <article>
              <h1>RenewEco</h1>
