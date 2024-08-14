@@ -9,13 +9,19 @@ function App() {
     <>
        <Header/>
          <section id='Fullscreen'>
-           <article>
-             <h1>RenewEco</h1>
-             <h2>Fullscreen teste</h2>
-           </article>
+        
          </section>
-    
+        <section>
 
+        </section>
+         <aside>
+          <fieldset>          
+            <form action="">
+              
+            </form>
+          </fieldset>
+
+         </aside>
        <footer>
 
        </footer>

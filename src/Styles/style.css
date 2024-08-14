@@ -74,6 +74,7 @@ header button:hover{
     width: 70px;
 }
 
+
 @media (max-width: 600px){
     body{
         overflow-x: hidden;

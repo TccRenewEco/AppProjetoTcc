@@ -44,7 +44,6 @@ export function Header() {
   if( VeriUsu >= 0)
     return (
       <>
-      <body>
         <header>
           <nav>
           <a onClick={()=>{NaviM('/')}}>
@@ -58,10 +57,10 @@ export function Header() {
               <div id='line3'></div>
           </div>
           <ul id='nav-list'>
-              <li><button onClick={()=>{NaviM('/')}} >Locais de descarte</button></li>
+              
               <li><button onClick={()=>{NaviM('/PagLoc')}}>Soluções</button></li>
               <li><button onClick={()=>{NaviM('/PagAbt')}}>Sobre</button></li>
-              <li><button onClick={()=>{NaviM('/')}}>Contato</button></li>
+              <li><button onClick={()=>{NaviM('/PagAbt')}}>Contato</button></li>
           </ul>
           <div id='log'>
               <button id='Entrar' onClick={()=>{NaviM('/Paglog')}}>Entrar</button>
@@ -69,8 +68,6 @@ export function Header() {
           </div>
           </nav>
         </header>
-        <script src=''></script>
-      </body>
       </>
     )
   }
