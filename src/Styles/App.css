@@ -2,9 +2,10 @@
 /*Parte da homepage*/
 body {
   font-family: 'Inter', sans-serif;
-  display:block;
+  display:flex;
   padding-left:2vh ;
   padding-right:2vh ;
+  flex-direction: column;
   background-color: #ffffff; 
   max-height: max-content;
   padding-bottom: 90px;
@@ -14,8 +15,7 @@ body {
   background-image: url(/src/assets/ReciClagi.jpg); 
   border:rgb(236, 162, 0) 0.5vh solid ;
   display: inherit;
-  height:60vh;
-
+  min-height:60vh;
   border-radius: 8px;
   text-align: center;
 }
@@ -36,6 +36,16 @@ body {
   margin-top: 5vh;
   max-width: 70vh;
   text-align: center;
+  overflow-y:visible;
+}
+#Accordion h1{
+  color: #e96b00;
+  padding: 10px;
+
+}
+
+#Accordion p{
+  text-align: left;
 }
 /*Parte da homepage*/
 
@@ -61,11 +71,20 @@ body {
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 600px) {
+  body{
+    overflow-x: hidden scroll;    
+    min-width: 400px;
   }
-}
+  
+  h1{
+    font-size: 40pt;
+    text-align: center;
+  }
+  
+
+  }
+
 
 .card {
   padding: 2em;

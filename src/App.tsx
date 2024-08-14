@@ -22,22 +22,29 @@ export function Home() {
       <section id='Fullscreen'>
         
         </section>
+        
        <section id='Accordion'>
-        <Accordion allowMultiple={true}>
+       <label htmlFor="Accordion">
            <h1>Dúvidas frequentes</h1>
+          </label>
+        <Accordion allowMultiple={true}>
+          
+           
           <AccordionItem textAlign='center'>
               <h2>
                 <AccordionButton>
                   <Box as='span' 
                   flex='1' 
-                  textAlign='center'>
+                  >
                     Como devo realizar meu descarte?
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
         <AccordionPanel pb={4}>
-           <p>Resposta aqui</p>  
+           <p>Você pode utilizar deste site para encontrar Locais e instituições voltados a reciclagem lixo eletronico,
+            ou você pode entrar numas das campanhas criadas por empresas no site 
+            </p>  
         </AccordionPanel>
       </AccordionItem>
     
@@ -47,14 +54,14 @@ export function Home() {
          <AccordionButton>
            <Box as='span'
            flex='1' 
-           textAlign='center'>
+           >
             Para onde vão os lixos eletrônicos descartados?
             </Box>
-            <AccordionIcon />
+          <AccordionIcon />
          </AccordionButton>
         </h2>
          <AccordionPanel>
-           <p>Resposta aqui</p>
+           <p>serão transportados para empresas e organizações que irão fazer a devida reciclagem</p>
          </AccordionPanel>
       </AccordionItem>
         
@@ -64,14 +71,14 @@ export function Home() {
          <AccordionButton>
            <Box as='span'
            flex='1' 
-           textAlign='center'>
+           >
             Terei que pagar pelo serviço?
             </Box>
-         </AccordionButton>
          <AccordionIcon />
+         </AccordionButton>
         </h2>
          <AccordionPanel>
-           <p>Resposta aqui</p>
+           <p>você pode tanto levar o lixo eletrônico ao local que será descartado ou poderá agendar uma coleta caso a quantidade for grande</p>
          </AccordionPanel>
       </AccordionItem>
     
@@ -81,14 +88,14 @@ export function Home() {
          <AccordionButton>
            <Box as='span'
            flex='1' 
-           textAlign='center'>
+           >
             Por quê tenho que descartar meus eletrônicos?
             </Box>
-         </AccordionButton>
          <AccordionIcon />
+         </AccordionButton>
         </h2>
          <AccordionPanel>
-           <p>Resposta aqui</p>
+           <p> Certos eletronicos possuem componentes quimicos toxicos que podem contaminar a água, solo e prejudicar a saúde alheia</p>
          </AccordionPanel>
       </AccordionItem>
 
@@ -98,20 +105,24 @@ export function Home() {
          <AccordionButton>
            <Box as='span'
            flex='1' 
-           textAlign='center'>
+           >
             Posso fazer o descarte de qualquer tipo de eletrônico?
             </Box>
+          <AccordionIcon/>
          </AccordionButton>
         </h2>
          <AccordionPanel>
-           <p>Resposta aqui</p>
+           <p> Sim, porém é vital que você deixe instituições de descarte se encarregarem deste processo para que acidentes não ocorram</p>
          </AccordionPanel>
       </AccordionItem>
   
 </Accordion>
        </section>
         <aside id='FormHom'>
+          <h2>Possui outra dúvida? Pergunte!</h2>
+          <form action="">
 
+          </form>
            
 
 
