@@ -3,7 +3,7 @@
 import { BrowserRouter, Routes,Route } from "react-router-dom";
 
 //Homes e Registro
-import App from "./App";
+import {Home} from "./App";
 import { PagEmp } from "./pages/Homes/PagEmpresa";
 import { PagAdm } from "./pages/Homes/PagAdm";
 import { PagUsu } from "./pages/Homes/PagUsuario";
@@ -20,7 +20,7 @@ export function RotaMestre(){
        <BrowserRouter>
          <Routes>
             {/*Páginas de cadastro e Homes*/}
-            <Route path="/" element={<App/>}></Route>
+            <Route path="/" element={<Home/>}></Route>
             <Route path="/pagEmp" element={<PagEmp/>}></Route>
             <Route path="/pagUsu" element={<PagUsu/>}></Route>
             <Route path="/pagAdm" element={<PagAdm/>}></Route>

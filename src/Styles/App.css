@@ -2,9 +2,12 @@
 /*Parte da homepage*/
 body {
   font-family: 'Inter', sans-serif;
-  margin: 0;
-  padding: 0;
+  display:block;
+  padding-left:2vh ;
+  padding-right:2vh ;
   background-color: #ffffff; 
+  max-height: max-content;
+  padding-bottom: 90px;
 }
 
 #Fullscreen {
@@ -12,7 +15,7 @@ body {
   border:rgb(236, 162, 0) 0.5vh solid ;
   display: inherit;
   height:60vh;
-  margin: 3vh;
+
   border-radius: 8px;
   text-align: center;
 }
@@ -28,6 +31,11 @@ body {
   font-family: Impact;
   text-shadow: #e96b00 2px;
 
+}
+#Accordion{
+  margin-top: 5vh;
+  max-width: 70vh;
+  text-align: center;
 }
 /*Parte da homepage*/
 
